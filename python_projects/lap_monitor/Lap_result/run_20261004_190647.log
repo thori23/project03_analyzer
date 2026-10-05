@@ -1,0 +1,14 @@
+19:06:47 [INFO] ログファイル: Lap_result/run_20261004_190647.log
+19:06:47 [INFO] --- Garmin Cloud Sync (v5.04) ---
+19:06:47 [INFO] .env / 環境変数からログイン情報を取得しました。
+19:06:59 [INFO] Garmin ログイン完了 (garminconnect)。
+19:06:59 [INFO] 過去 7 日間のアクティビティを検索中...
+19:06:59 [CRITICAL] アクティビティリストの取得に失敗しました: HTTP error: API Error 404 - <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Not Found</title></head>
+<body>
+    <div class="headerContainer">
+        <h2 class="page-title">Page Not Found</h2>
+
+        <p>We're sorry. The page you're looking for does not exist.</p>
+    </div>
+</body>
+</html>

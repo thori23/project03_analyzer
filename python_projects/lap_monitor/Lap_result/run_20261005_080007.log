@@ -1,0 +1,22 @@
+08:00:07 [INFO] ログファイル: Lap_result/run_20261005_080007.log
+08:00:07 [INFO] === LapMonitor v5.04 開始 ===
+08:00:07 [INFO] 対象期間: 2026-09-29 〜 2026-10-05
+08:00:07 [INFO] .env / 環境変数からログイン情報を取得しました。
+08:00:16 [INFO] Garmin ログイン完了 (garminconnect)。
+08:00:17 [INFO] 対象アクティビティ数: 3
+08:00:17 [INFO] 取得中: Activity ID=24585114489
+08:00:18 [INFO] CSV 保存: Lap_result/result_20261003_133336.csv
+08:00:18 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20261003_133336.html
+08:00:19 [INFO] 取得中: Activity ID=24584684147
+08:00:20 [INFO] CSV 保存: Lap_result/result_20261003_111226.csv
+08:00:21 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20261003_111226.html
+08:00:21 [INFO] 取得中: Activity ID=24584465844
+08:00:22 [INFO] CSV 保存: Lap_result/result_20261003_101821.csv
+08:00:22 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20261003_101821.html
+08:00:22 [INFO] ==================================================
+08:00:22 [INFO] === 処理完了サマリー ===
+08:00:22 [INFO]   新規処理: 3 件 / スキップ（処理済み）: 0 件
+08:00:22 [INFO]   [2026/10/03 13:33:36] 22 laps, Best: Lap12 (28.184s)
+08:00:22 [INFO]   [2026/10/03 11:12:26] 54 laps, Best: Lap17 (29.399s)
+08:00:22 [INFO]   [2026/10/03 10:18:21] 52 laps, Best: Lap42 (29.945s)
+08:00:22 [INFO] ==================================================

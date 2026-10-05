@@ -1,0 +1,25 @@
+23:16:45 [INFO] ログファイル: Lap_result/run_20261004_231645.log
+23:16:45 [INFO] === LapMonitor v5.04 開始 ===
+23:16:45 [INFO] 対象期間: 2026-09-28 〜 2026-10-04
+23:16:45 [INFO] .env / 環境変数からログイン情報を取得しました。
+23:16:56 [INFO] Garmin ログイン完了 (garminconnect)。
+23:16:56 [INFO] 対象アクティビティ数: 3
+23:16:56 [INFO] 取得中: Activity ID=24585114489
+23:16:57 [INFO] CSV 保存: Lap_result/result_20261003_133336.csv
+23:16:57 [INFO] ラップライン確定: 最速 L12 の最高速点 (35.0 km/h) を基準に設定
+23:16:57 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20261003_133336.html
+23:16:57 [INFO] 取得中: Activity ID=24584684147
+23:16:58 [INFO] CSV 保存: Lap_result/result_20261003_111226.csv
+23:16:58 [INFO] ラップライン確定: 最速 L17 の最高速点 (33.7 km/h) を基準に設定
+23:16:58 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20261003_111226.html
+23:16:58 [INFO] 取得中: Activity ID=24584465844
+23:16:59 [INFO] CSV 保存: Lap_result/result_20261003_101821.csv
+23:16:59 [INFO] ラップライン確定: 最速 L42 の最高速点 (36.7 km/h) を基準に設定
+23:16:59 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20261003_101821.html
+23:16:59 [INFO] ==================================================
+23:16:59 [INFO] === 処理完了サマリー ===
+23:16:59 [INFO]   新規処理: 3 件 / スキップ（処理済み）: 0 件
+23:16:59 [INFO]   [2026/10/03 13:33:36] 22 laps, Best: Lap12 (28.184s)
+23:16:59 [INFO]   [2026/10/03 11:12:26] 54 laps, Best: Lap17 (29.399s)
+23:16:59 [INFO]   [2026/10/03 10:18:21] 52 laps, Best: Lap42 (29.945s)
+23:16:59 [INFO] ==================================================

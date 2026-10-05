@@ -1,0 +1,28 @@
+00:53:19 [INFO] ログファイル: Lap_result/run_20260717_005319.log
+00:53:19 [INFO] === LapMonitor v5.03 開始 ===
+00:53:19 [INFO] 対象期間: 2026-07-11 〜 2026-07-17
+00:53:19 [INFO] .env / 環境変数からログイン情報を取得しました。
+00:53:19 [INFO] Garmin セッションを復元しました (garth)。
+00:53:20 [INFO] 対象アクティビティ数: 5
+00:53:20 [INFO] 取得中: Activity ID=23554598999
+00:53:21 [INFO] CSV 保存: Lap_result/result_20260711_154506.csv
+00:53:21 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20260711_154506.html
+00:53:21 [INFO] 取得中: Activity ID=23554590656
+00:53:21 [WARNING] ラップラインの通過回数が不足しているためスキップします。
+00:53:21 [INFO] 取得中: Activity ID=23554589308
+00:53:22 [INFO] CSV 保存: Lap_result/result_20260711_142400.csv
+00:53:22 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20260711_142400.html
+00:53:22 [INFO] 取得中: Activity ID=23553497696
+00:53:23 [INFO] CSV 保存: Lap_result/result_20260711_113645.csv
+00:53:23 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20260711_113645.html
+00:53:23 [INFO] 取得中: Activity ID=23553398627
+00:53:23 [INFO] CSV 保存: Lap_result/result_20260711_103523.csv
+00:53:23 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20260711_103523.html
+00:53:23 [INFO] ==================================================
+00:53:23 [INFO] === 処理完了サマリー ===
+00:53:23 [INFO]   新規処理: 4 件 / スキップ（処理済み）: 0 件
+00:53:23 [INFO]   [2026/07/11 15:45:06] 1 laps, Best: Lap1 (109.705s)
+00:53:23 [INFO]   [2026/07/11 14:24:00] 25 laps, Best: Lap25 (28.727s)
+00:53:23 [INFO]   [2026/07/11 11:36:45] 6 laps, Best: Lap1 (88.534s)
+00:53:23 [INFO]   [2026/07/11 10:35:23] 9 laps, Best: Lap3 (91.83s)
+00:53:23 [INFO] ==================================================

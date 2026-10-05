@@ -1,0 +1,14 @@
+23:48:30 [INFO] ログファイル: Lap_result/run_20261004_234830.log
+23:48:30 [INFO] === LapMonitor v5.04 開始 ===
+23:48:30 [INFO] 対象期間: 2026-09-28 〜 2026-10-04
+23:48:30 [INFO] .env / 環境変数からログイン情報を取得しました。
+23:48:43 [WARNING] ログイン失敗 (1/3): Login failed: All login strategies exhausted: Portal login failed (non-JSON): HTTP 403
+23:49:27 [WARNING] ログイン失敗 (2/3): Login failed: All login strategies exhausted: Portal login failed (non-JSON): HTTP 403
+23:49:33 [WARNING] ログイン失敗 (3/3): 
+23:49:33 [CRITICAL] 致命的エラー: Garmin ログインに3回失敗しました: 
+Traceback (most recent call last):
+  File "/home/toru/python_projects/lap_monitor/LapMonitor_v5.05.py", line 834, in main
+    authenticate_garmin()
+  File "/home/toru/python_projects/lap_monitor/LapMonitor_v5.05.py", line 765, in authenticate_garmin
+    raise RuntimeError(f"Garmin ログインに3回失敗しました: {last_err}")
+RuntimeError: Garmin ログインに3回失敗しました: 

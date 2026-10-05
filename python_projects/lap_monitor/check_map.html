@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_51b1798d18e74e58638c144ec41c2abc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_51b1798d18e74e58638c144ec41c2abc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_51b1798d18e74e58638c144ec41c2abc = L.map(
+                "map_51b1798d18e74e58638c144ec41c2abc",
+                {
+                    center: [34.7108, 137.7261],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_77e8441845b5e36d6785554489061fda = L.tileLayer(
+                "https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u003ca href=\"https://maps.gsi.go.jp/development/ichiran.html\"\u003e\u56fd\u571f\u5730\u7406\u9662\u003c/a\u003e",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_77e8441845b5e36d6785554489061fda.addTo(map_51b1798d18e74e58638c144ec41c2abc);
+        
+    
+            var tile_layer_541af9d5a9285d71272af5cfefa70fd8 = L.tileLayer(
+                "https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u003ca href=\"https://maps.gsi.go.jp/development/ichiran.html\"\u003e\u56fd\u571f\u5730\u7406\u9662\u003c/a\u003e",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            var tile_layer_f168fe4fda5c55ae287cd56d3e8301e4 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "Tiles \u0026copy; Esri",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            var poly_line_d53f510d3b36947bc0f3be432e61718a = L.polyline(
+                [[34.705, 137.72], [34.71, 137.726], [34.715, 137.73]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_51b1798d18e74e58638c144ec41c2abc);
+        
+    
+            var layer_control_04df4ae45750b9510d34fe40b90cd7b5_layers = {
+                base_layers : {
+                    "\u56fd\u571f\u5730\u7406\u9662 \u6de1\u8272\u5730\u56f3" : tile_layer_77e8441845b5e36d6785554489061fda,
+                    "\u56fd\u571f\u5730\u7406\u9662 \u6a19\u6e96\u5730\u56f3" : tile_layer_541af9d5a9285d71272af5cfefa70fd8,
+                    "Esri \u885b\u661f\u753b\u50cf" : tile_layer_f168fe4fda5c55ae287cd56d3e8301e4,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_04df4ae45750b9510d34fe40b90cd7b5 = L.control.layers(
+                layer_control_04df4ae45750b9510d34fe40b90cd7b5_layers.base_layers,
+                layer_control_04df4ae45750b9510d34fe40b90cd7b5_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_51b1798d18e74e58638c144ec41c2abc);
+
+        
+</script>
+</html>

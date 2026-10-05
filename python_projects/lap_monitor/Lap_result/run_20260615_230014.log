@@ -1,0 +1,40 @@
+23:00:14 [INFO] ログファイル: Lap_result/run_20260615_230014.log
+23:00:14 [INFO] === LapMonitor v5.03 開始 ===
+23:00:14 [INFO] 対象期間: 2026-06-09 〜 2026-06-15
+23:01:09 [WARNING] ログイン失敗 (1/3): Error in request: 429 Client Error: Too Many Requests for url: https://sso.garmin.com/mobile/api/login?clientId=GCM_ANDROID_DARK&locale=en-US&service=https%3A%2F%2Fmobile.integration.garmin.com%2Fgcm%2Fandroid
+23:04:06 [WARNING] ログイン失敗 (2/3): Error in request: 401 Client Error: Unauthorized for url: https://sso.garmin.com/mobile/api/login?clientId=GCM_ANDROID_DARK&locale=en-US&service=https%3A%2F%2Fmobile.integration.garmin.com%2Fgcm%2Fandroid
+23:04:46 [INFO] Garmin ログイン完了 (garth)。
+23:05:06 [INFO] .env ファイルを生成しました。
+23:05:07 [INFO] 対象アクティビティ数: 7
+23:05:07 [INFO] 取得中: Activity ID=23244302165
+23:05:07 [INFO] CSV 保存: Lap_result/result_20260614_172445.csv
+23:05:07 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20260614_172445.html
+23:05:07 [INFO] 取得中: Activity ID=23229736560
+23:05:08 [INFO] CSV 保存: Lap_result/result_20260613_144450.csv
+23:05:08 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20260613_144450.html
+23:05:08 [INFO] 取得中: Activity ID=23229726027
+23:05:08 [INFO] CSV 保存: Lap_result/result_20260613_143821.csv
+23:05:08 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20260613_143821.html
+23:05:08 [INFO] 取得中: Activity ID=23229453566
+23:05:09 [INFO] CSV 保存: Lap_result/result_20260613_133243.csv
+23:05:09 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20260613_133243.html
+23:05:09 [INFO] 取得中: Activity ID=23229182645
+23:05:10 [INFO] CSV 保存: Lap_result/result_20260613_114705.csv
+23:05:10 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20260613_114705.html
+23:05:10 [INFO] 取得中: Activity ID=23228955048
+23:05:11 [INFO] CSV 保存: Lap_result/result_20260613_110628.csv
+23:05:11 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20260613_110628.html
+23:05:11 [INFO] 取得中: Activity ID=23228774384
+23:05:11 [INFO] CSV 保存: Lap_result/result_20260613_095917.csv
+23:05:12 [INFO] マップ保存: /home/toru/python_projects/lap_monitor/Lap_result/map_20260613_095917.html
+23:05:12 [INFO] ==================================================
+23:05:12 [INFO] === 処理完了サマリー ===
+23:05:12 [INFO]   新規処理: 7 件 / スキップ（処理済み）: 0 件
+23:05:12 [INFO]   [2026/06/14 17:24:45] 1 laps, Best: Lap1 (197.541s)
+23:05:12 [INFO]   [2026/06/13 14:44:50] 29 laps, Best: Lap10 (29.76s)
+23:05:12 [INFO]   [2026/06/13 14:38:21] 9 laps, Best: Lap3 (29.417s)
+23:05:12 [INFO]   [2026/06/13 13:32:43] 47 laps, Best: Lap4 (28.501s)
+23:05:12 [INFO]   [2026/06/13 11:47:05] 14 laps, Best: Lap2 (27.942s)
+23:05:12 [INFO]   [2026/06/13 11:06:28] 42 laps, Best: Lap3 (27.363s)
+23:05:12 [INFO]   [2026/06/13 09:59:17] 62 laps, Best: Lap12 (29.6s)
+23:05:12 [INFO] ==================================================

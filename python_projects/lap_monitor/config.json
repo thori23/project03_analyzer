@@ -1,0 +1,22 @@
+{
+    "VERSION": "5.04",
+    "LAP_LINE_WIDTH_M": 8.0,
+    "MIN_LAP_DIST_M": 50.0,
+    "SEARCH_DAYS": 7,
+    "OUTPUT_DIR": "Lap_result",
+    "SESSION_PATH": "./.garth_session",
+    "COLOR_POINTS": [
+        "#000080",
+        "#0000FF",
+        "#FFFF00",
+        "#FF0000",
+        "#800000"
+    ],
+    "SPEED_POINTS": [
+        0,
+        15,
+        30,
+        45,
+        60
+    ]
+}
